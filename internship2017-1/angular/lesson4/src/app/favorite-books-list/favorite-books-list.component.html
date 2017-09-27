@@ -1,0 +1,8 @@
+<div class="row">
+  <p>Favorite Books:</p>
+<div *ngFor="let fav of favorites$ | async">
+  <h5>
+  
+     <p> {{ fav.bookId }}.  {{ fav.bookTitle }}</p>
+  </h5>
+</div>

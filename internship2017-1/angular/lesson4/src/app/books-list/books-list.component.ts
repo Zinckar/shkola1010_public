@@ -7,7 +7,9 @@ import { Observable } from 'rxjs/Observable';
     selector: 'app-books-list',
     templateUrl: './books-list.component.html',
     styleUrls: ['./books-list.component.css']
-})
+})   
+
+
 export class BooksListComponent implements OnInit {
     favoriteMessage = '';
     imageWidth = 159;

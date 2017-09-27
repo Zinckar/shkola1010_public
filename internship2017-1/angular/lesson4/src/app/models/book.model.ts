@@ -8,6 +8,7 @@ export interface Book {
     genre: string;
     specifications: string;
     inStock: boolean;
+    size: number;
     price: number;
     starRating: number;
     imageUrl: string;
